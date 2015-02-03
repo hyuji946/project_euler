@@ -1,0 +1,38 @@
+Python の手引書　
+科学技術計算のために Python を始めよう。
+http://turbare.net/transl/scipy-lecture-notes/intro/index.html
+
+Numpy 配列演算パッケージ
+	import numpy as np
+
+Matplotlib 作図パッケージ
+	pylab パッケージを通してアクセスするほうが簡単
+	from pylab import *
+	import pylab as pl
+
+Sympy 代数演算パッケージ	
+	
+Scipy 科学技術計算パッケージ
+	以下のサブモジュールから構成される
+	scipy.cluster		ベクトル量子化 / K 平均法
+	scipy.constants		物理数学定数
+	scipy.fftpack		Fourier 変換
+	scipy.integrate		積分ルーチン
+	scipy.interpolate	補間
+	scipy.io			データ入出力
+	scipy.linalg		線形代数ルーチン
+	scipy.ndimage		n-次元画像パッケージ
+	scipy.odr			直交距離回帰
+	scipy.optimize		最適化
+	scipy.signal		信号処理
+	scipy.sparse		疎行列
+	scipy.spatial		空間データ構造とアルゴリズム
+	scipy.special		任意の数学特殊関数
+	scipy.stats			統計	
+
+	from Scipy import integrate
+	
+
+	
+
+	

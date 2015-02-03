@@ -1,0 +1,16 @@
+Sympyでよく利用する関数
+prime		prime(1)      -> 2    prime(10) -> 29
+isprime		isprime(11)   -> True 素数判定
+primepi     primepi(25)   -> 9    引数以下の素数の数
+nextprime	nextprime(12) -> 13   引数の次の素数
+prevprime	prevprime(12) -> 7    引数の前の素数
+
+factorint   factorint(17*9)　-> {3:2,17:1} 素因数分解（順番は保証されない）
+	factorint(17*9).values 　-> [2,1]	　　変数がdict型なので
+	factorint(17*9).keyes 　　-> [3,17]	　　変数がdict型なので
+	factorint(17*9).max() 　　-> 17		　　最大の素因数の取り出し
+primefactors primefactors(12) -> [2,3]	素因数分解の結果をリストで返す（ソートされている）
+
+divisors	divisors(24) -> [1,2,3,4,6,8,12,24]	約数のリストを返す。
+divisor_count divisor_count(24) -> 8			約数の数を返す。
+

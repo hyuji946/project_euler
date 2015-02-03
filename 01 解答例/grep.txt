@@ -1,0 +1,58 @@
+from datetime import date
+from datetime import date
+from itertools import chain, starmap, cycle, dropwhile
+from itertools import combinations
+from itertools import combinations, permutations
+from itertools import combinations, permutations, product as cartesian_product
+from itertools import combinations_with_replacement
+from itertools import combinations_with_replacement
+from itertools import count, imap, takewhile, tee, izip
+from itertools import count, imap, takewhile, tee, izip
+from itertools import ifilter, islice, repeat, groupby
+from itertools import islice
+from itertools import islice,product,combinations_with_replacement
+from itertools import permutations
+from itertools import permutations
+from itertools import product
+from itertools import product
+from itertools import product
+from itertools import product
+from itertools import starmap
+from math import sqrt, log, log10, ceil
+from math import sqrt, log, log10, ceil
+from numpy import  arange
+from numpy import  arange
+from sympy import *
+from sympy import divisor_count
+from sympy import divisor_count
+from sympy import divisor_count, divisors, factorint, isprime, prime, primefactors
+from sympy import divisors
+from sympy import divisors
+from sympy import divisors
+from sympy import factorial
+from sympy import factorial
+from sympy import factorial
+from sympy import factorint
+from sympy import isprime
+from sympy import isprime
+from sympy import isprime
+from sympy import prime
+from sympy import primefactors
+from toolset import *
+from toolset import *
+import data
+import data
+import numpy as np
+import operator
+import operator, os, string, time
+import os
+import string
+import string
+import time
+import time
+import time
+import time
+import time
+import time
+import time
+import time
